@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirtydenny/readmegen.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dirtydenny/readmegen/issues"
+  },
+  "homepage": "https://github.com/dirtydenny/readmegen#readme"
 }

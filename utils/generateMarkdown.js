@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -22,14 +22,16 @@ function generateMarkdown(data) {
 
 ## Table of Contents  
 
+${renderLicenseLink(data.license)}  
+
+<!--ts-->
     * [Description](#description)  
-    ${renderLicenseLink(data.license)}  
     * [Installation](#installation)  
     * [Usage](#usage)  
     * [Questions](#questions)  
     * [Tests](#tests)  
-    * [Updating to New Releases](#updating-to-new-releases)
-
+    
+<!--te-->
 
 
 
@@ -43,7 +45,21 @@ function generateMarkdown(data) {
 
   ${data.installation}
 
-  
+  ## Usage
+
+  ${data.usage}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## Questions
+
+  Thank you for using my application.  Please submit questions to ${data.email
+    }.  Also, visit me at 
+    [${data.github}](https//github.com/${
+    data.github
+  }/) to see my other programs.
 
 `;
 }
