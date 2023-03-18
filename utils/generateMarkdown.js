@@ -11,35 +11,48 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+
 function renderLicenseSection(license) {
-  return "# License";
+  if (license !== "None") {
+    return `## License 
+     For more info, please follow the link below.
+  [link.](${renderLicenseLink(license)
+    })`;
+  }
+}
+
+function renderLicenseLink(license) {
+  var licLink = ``;
+
+  if (license === "MIT") {
+    licLink = "https://opensource.org/license/MIT";
+    return licLink;
+  } else if (license === "Microsoft Public License") {
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
   return `
+
 # ${data.title}
+${renderLicenseBadge(data.license)}
+
 
 ## Table of Contents  
-
-${renderLicenseLink(data.license)}  
-
-<!--ts-->
-    * [Description](#description)  
-    * [Installation](#installation)  
-    * [Usage](#usage)  
-    * [Questions](#questions)  
-    * [Tests](#tests)  
+[Description](#Description)\n  
+[Installation](#Installation)\n  
+[Usage](#Usage)\n  
+[Questions](#Questions)\n  
+[Tests](#tests)  
     
-<!--te-->
-
-
 
   ${renderLicenseSection(data.license)}
 
   ## Description
 
-  ${data.descripton}
+  ${data.description}
 
   ## Installation
 
@@ -51,12 +64,13 @@ ${renderLicenseLink(data.license)}
 
   ## Tests
 
-  ${data.tests}
+  ${data.test}
 
   ## Questions
 
-  Thank you for using my application.  Please submit questions to ${data.email
-    }.  Also, visit me at 
+  Thank you for using my application.  Please submit questions to ${
+    data.email
+  }.  Also, visit me at 
     [${data.github}](https//github.com/${
     data.github
   }/) to see my other programs.
