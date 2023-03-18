@@ -16,7 +16,7 @@ function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License 
      For more info, please follow the link below.
-  [link.](${renderLicenseLink(license)
+  [LINK](${renderLicenseLink(license)
     })`;
   }
 }
@@ -26,10 +26,20 @@ function renderLicenseLink(license) {
 
   if (license === "MIT") {
     licLink = "https://opensource.org/license/MIT";
+    imgLink = ""
     return licLink;
-  } else if (license === "Microsoft Public License") {
+  } else if (license === "Apache 2.0 License") {
+    licLink = "https://opensource.org/licenses/Apache-2.0";
+    return licLink;
+  } else if (license === "The Unlicense") {
+    licLink = "https://unlicense.org/";
+    return licLink;
+  } else if (license === "MPL 2.0") {
+    licLink = "https://www.mozilla.org/en-US/MPL/2.0/";
+    return licLink;
   }
-}
+  
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -41,11 +51,11 @@ ${renderLicenseBadge(data.license)}
 
 
 ## Table of Contents  
-[Description](#Description)\n  
-[Installation](#Installation)\n  
-[Usage](#Usage)\n  
-[Questions](#Questions)\n  
-[Tests](#tests)  
+[Description](#description)\n  
+[Installation](#installation)\n  
+[Usage](#usage)\n  
+[Questions](#questions)\n  
+[Tests](#tests)
     
 
   ${renderLicenseSection(data.license)}
@@ -71,7 +81,7 @@ ${renderLicenseBadge(data.license)}
   Thank you for using my application.  Please submit questions to ${
     data.email
   }.  Also, visit me at 
-    [${data.github}](https//github.com/${
+    [${data.github}](https://github.com/${
     data.github
   }/) to see my other programs.
 

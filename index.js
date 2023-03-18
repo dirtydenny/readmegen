@@ -26,10 +26,9 @@ const questions = [
     message: "Please select a license.",
     choices: [
       "MIT",
-      "Microsoft Public License",
-      "Mozilla Public License 2.0",
+      "Apache 2.0 License",
+      "MPL 2.0",
       "The Unlicense",
-      "None",
     ],
   },
   {
