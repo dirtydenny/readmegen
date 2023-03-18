@@ -1,7 +1,7 @@
 
 
-# dd
-![License](https://img.shields.io/badge/License-MPL 2.0-blue.svg)
+# READ
+![License](https://img.shields.io/badge/License-ISC-blue.svg)
 
 
 ## Table of Contents  
@@ -18,11 +18,11 @@
 
   ## License 
      For more info, please follow the link below.
-  [LINK](https://www.mozilla.org/en-US/MPL/2.0/)
+  [LINK](https://opensource.org/licenses/ISC)
 
   ## Description
 
-  dd
+  READ
 
   ## Installation
 
@@ -30,7 +30,7 @@
 
   ## Usage
 
-  d
+  DAD
 
   ## Tests
 
@@ -38,6 +38,6 @@
 
   ## Questions
 
-  Thank you for using my application.  Please submit questions to d.  Also, visit me at 
-    [d](https://github.com/d/) to see my other programs.
+  Thank you for using my application.  Please submit questions to DD.  Also, visit me at 
+    [DD](https://github.com/DD/) to see my other programs.
 

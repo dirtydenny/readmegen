@@ -28,16 +28,16 @@ function renderLicenseLink(license) {
     licLink = "https://opensource.org/license/MIT";
     imgLink = ""
     return licLink;
-  } else if (license === "Apache 2.0 License") {
-    licLink = "https://opensource.org/licenses/Apache-2.0";
+  } else if (license === "ISC") {
+    licLink = "https://opensource.org/licenses/ISC";
     return licLink;
-  } else if (license === "The Unlicense") {
+  } else if (license === "WTFPL") {
+    licLink = "http://www.wtfpl.net/about/";
+    return licLink;
+  } else if (license === "Unlicense") {
     licLink = "https://unlicense.org/";
     return licLink;
-  } else if (license === "MPL 2.0") {
-    licLink = "https://www.mozilla.org/en-US/MPL/2.0/";
-    return licLink;
-  }
+  } 
   
 };
 
