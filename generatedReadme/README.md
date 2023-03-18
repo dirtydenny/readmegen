@@ -1,6 +1,6 @@
 
 
-# READ
+# Denny's readme creator
 ![License](https://img.shields.io/badge/License-ISC-blue.svg)
 
 
@@ -22,7 +22,7 @@
 
   ## Description
 
-  READ
+  to makle a readme generator
 
   ## Installation
 
@@ -30,7 +30,7 @@
 
   ## Usage
 
-  DAD
+  use the program
 
   ## Tests
 
@@ -38,6 +38,6 @@
 
   ## Questions
 
-  Thank you for using my application.  Please submit questions to DD.  Also, visit me at 
-    [DD](https://github.com/DD/) to see my other programs.
+  Thank you for using my application.  Please submit questions to dallen7@socal.rr.com.  Also, visit me at 
+    [dirtydenny](https://github.com/dirtydenny/) to see my other programs.
 
