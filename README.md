@@ -1,3 +1,5 @@
+[Video Walkthrough](https://drive.google.com/file/d/1wW928RlpmtFzSnLwUTJnHeV6pbyT00mu/view)
+
 # 09 Node.js Challenge: Professional README Generator
 
 ## Your Task
