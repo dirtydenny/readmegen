@@ -1,7 +1,7 @@
 
 
-# Denny's readme creator
-![License](https://img.shields.io/badge/License-ISC-blue.svg)
+# Logo Generator
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 ## Table of Contents  
@@ -18,11 +18,11 @@
 
   ## License 
      For more info, please follow the link below.
-  [LINK](https://opensource.org/licenses/ISC)
+  [LINK](https://opensource.org/license/MIT)
 
   ## Description
 
-  to makle a readme generator
+  This application helps create a simple log for your company, project, or whatever may need a quick , simple Logo.
 
   ## Installation
 
@@ -30,7 +30,7 @@
 
   ## Usage
 
-  use the program
+  From the command line, cd to the directory holding the index.js file.  run 'npm i' from the command line.  Run 'node index.js'.
 
   ## Tests
 
