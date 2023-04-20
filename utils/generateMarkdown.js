@@ -75,14 +75,8 @@ ${renderLicenseBadge(data.license)}
 
   ## Questions
 
-  Thank you for using my application.  Please submit questions to ${
-    data.email
-  }.  Also, visit me at 
-    [${data.github}](https://github.com/${
-    data.github
-  }/) to see my other programs.
-
-`;
+  Thank you for using my application.  Please submit questions to ${data.email}.  Also, visit me on Github at 
+    [${data.github}](https://github.com/${data.github}/) to see my other programs.`;
 }
 
 module.exports = generateMarkdown;
