@@ -1,6 +1,6 @@
 
 
-# Logo Generator
+# E-Comm Backend
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
@@ -22,7 +22,7 @@
 
   ## Description
 
-  This application helps create a simple log for your company, project, or whatever may need a quick , simple Logo.
+  The purpose of the project was to provide the user with an easily searchabble mallabel to  to actively work on their ecomm store.   at t
 
   ## Installation
 
@@ -30,15 +30,14 @@
 
   ## Usage
 
-  From the command line, cd to the directory holding the index.js file.  run 'npm i' from the command line.  Run 'node index.js'.
+  Please start by installing the needed packages with NPM i.  AFter installing the needed packages, run NPM start to run the program.
 
   ## Tests
 
-  npm test
+  none
 
   ## Questions
 
   Thank you for using my application.  Please submit questions to dallen7@socal.rr.com.  Also, visit me at 
     [dirtydenny](https://github.com/dirtydenny/) to see my other programs.
 
-[video link](https://drive.google.com/file/d/1wW928RlpmtFzSnLwUTJnHeV6pbyT00mu/view)
